@@ -1,0 +1,6 @@
+framework module Pods_TaskRxSwift_TaskRxSwiftUITests {
+  umbrella header "Pods-TaskRxSwift-TaskRxSwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

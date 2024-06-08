@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="urN-YH-fOM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TaskRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="uUE-kn-KjT">
+                                <rect key="frame" x="0.0" y="104" width="414" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Bo-AI-8Zq">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                                        <state key="normal" title="Task1"/>
+                                        <connections>
+                                            <segue destination="mPm-PD-4q9" kind="show" id="Hmq-H7-fUA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xc2-x6-i5w">
+                                        <rect key="frame" x="0.0" y="70" width="414" height="30"/>
+                                        <state key="normal" title="Task2"/>
+                                        <connections>
+                                            <segue destination="L7b-m6-tcn" kind="show" id="C59-hq-YJl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQT-eu-b5j">
+                                        <rect key="frame" x="0.0" y="140" width="414" height="30"/>
+                                        <state key="normal" title="Task3"/>
+                                        <connections>
+                                            <segue destination="Bka-3d-bg8" kind="show" id="Wna-Ku-H2X"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTm-4Y-Da2">
+                                        <rect key="frame" x="0.0" y="210" width="414" height="30"/>
+                                        <state key="normal" title="Task4"/>
+                                        <connections>
+                                            <segue destination="8pf-pd-OvB" kind="show" id="2Lq-mJ-3DE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uUE-kn-KjT" secondAttribute="trailing" id="Nyl-YP-VvS"/>
+                            <constraint firstItem="uUE-kn-KjT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="dYF-RL-rM8"/>
+                            <constraint firstItem="uUE-kn-KjT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wp2-XZ-dGv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rqe-sI-P3x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+        <!--Task2-->
+        <scene sceneID="LHT-Kd-eQX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Task2" id="L7b-m6-tcn" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="RLc-2F-Ew1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hnS-eg-DBM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709" y="138"/>
+        </scene>
+        <!--Task3-->
+        <scene sceneID="p17-pV-nzp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Task3" id="Bka-3d-bg8" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="9cT-rb-bmn"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uSK-VB-Ubj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709" y="187"/>
+        </scene>
+        <!--Task4-->
+        <scene sceneID="TNY-Yx-Jee">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Task4" id="8pf-pd-OvB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="a03-eG-cO0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J1x-fz-PfQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724" y="244"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ps5-Ka-vxj">
+            <objects>
+                <navigationController id="urN-YH-fOM" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Nd7-DC-0ig">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="EE7-yu-tzY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v16-lo-Xyi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-797" y="133"/>
+        </scene>
+        <!--Task1-->
+        <scene sceneID="Hbg-cg-qWe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Task1" id="mPm-PD-4q9" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ugf-Rj-odo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RSW-MH-Tha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="708" y="82"/>
+        </scene>
+    </scenes>
+</document>
